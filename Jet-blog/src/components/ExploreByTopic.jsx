@@ -75,9 +75,9 @@ import office from '../assets/office.png';
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {articles.map((article) => (
           <div key={article.id} className="bg-white overflow-hidden ">
-            <div className="h-48 overflow-hidden">
+            <div className="h-48 overflow-hidden relative">
                 {article.topic && (
-                  <div className=" text-black px-3  text-lg">
+                  <div className=" text-black px-3 absolute top-0 left-0 right-0 bg-gradient-to-b from-black/70 to-transparent  px-4 py-3 font-semibold text-lg">
                     {article.topic}
                   </div>
                 )}

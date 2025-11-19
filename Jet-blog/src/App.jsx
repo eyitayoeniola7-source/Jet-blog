@@ -6,11 +6,12 @@ import { CategoriesPage } from './pages/CategoriesPage';
 import { TagsPage } from './pages/TagsPage';
 import { ArticlesPage } from './pages/ArticlesPage';
 import SignUpPage from './pages/SignUpPage';    
+import SignInPage from './components/SignInPage'; 
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='min-h-screen  bg-gradient-to-b from-purple-300 to-white'>
+    <div className='min-h-screen  bg-gradient-to-b from-purple-100 via-white to-white'>
       <Header />
       
       
@@ -20,6 +21,7 @@ function App() {
         <Route path='/tags' element={<TagsPage />} />
         <Route path='/articles' element={<ArticlesPage />} />
         <Route path='/signup' element={<SignUpPage />} />
+        <Route path='/signin' element={<SignInPage />} />
       </Routes>
       <Footer />
     </div>

@@ -131,20 +131,21 @@ import ExploreByTopic from '../components/ExploreByTopic';
          <PostCard />
           <ExploreByTopic />
 
-         <div className='relative w-auto  object-cover max-w-7xl mx-auto h-auto  mt-20 p-10 text-center'>
-        <img src={Background} alt="background-image" className='mt-10'/>
-        <div className='absolute inset-0 items-center justify-center flex flex-col text-white '>
-        <h2 className='text-4xl font-semibold'>Can't Find an Answer? <br /> Ask J2.</h2>
-        <p className='mt-6 text-lg '>My AI assistant,J2,has been trained on my articles <br />and projects. If you have a specific question or want a summary of <br />
-            a topic I've covered, J2 can provide instant answers and point  <br /> you to the right resources.
-         </p>
-       
-
-          <button className="px-6 py-2.5 mt-6 rounded-full bg-gradient-to-r from-purple-600 to-orange-500 text-white font-semibold hover:shadow-lg transition"
-             >
-          CHAT WITH J2
-         </button>
+         <div className='relative w-full object-cover max-w-7xl mx-auto h-auto mt-10 sm:mt-20 p-4 sm:p-6 md:p-10 text-center justify-center items-center'>
+           <div className='relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-lg overflow-hidden'>
+        <img src={Background} alt="background-image" className='w-full h-full'/>
+        <div className='absolute inset-0 flex items-center justify-center'>
+          <div className='flex flex-col items-center justify-center text-white px-4 '>
+            <h2 className='text-xl sm:text-2xl md:text-4xl font-semibold text-center'>Can't Find an Answer? <br className='hidden sm:block' /> Ask J2.</h2>
+            <p className='mt-4 sm:mt-6 text-xs sm:text-sm md:text-lg lg:text-2xl leading-relaxed'>
+              My AI assistant, J2, has been trained on my articles and   <br className='hidden md:block' /> projects. If you have a specific question or want a summary of   <br className='hidden md:block' /> a topic I've covered, J2 can provide instant answers and point   <br className='hidden md:block' /> you to the right resources.
+            </p>
+            <button className=" sm:w-auto px-4 py-2 sm:px-6 sm:py-2.5 lg:py-4 mt-4 sm:mt-6 rounded-full bg-gradient-to-r from-purple-600 to-orange-500 text-white font-semibold hover:shadow-lg transition text-sm sm:text-base">
+              CHAT WITH J2
+            </button>
+            </div>
           </div>
+        </div>
         </div>
         
         

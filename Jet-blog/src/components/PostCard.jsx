@@ -30,7 +30,7 @@ const PostCard = ({ title = "Latest from the Blog" }) => {
         <h2 className="text-4xl font-bold text-gray-800">{title}</h2>
         
         {/* View All Articles Button */}
-        <button className="px-6 py-3 border-2 border-purple-600 text-purple-600 rounded-full font-semibold hover:bg-purple-50 transition">
+        <button className=" py-2 px-8 flex md:px-6 py-3 border-2 border-purple-600 text-purple-600 rounded-full font-semibold hover:bg-purple-50 transition">
           VIEW ALL ARTICLES
         </button>
       </div>

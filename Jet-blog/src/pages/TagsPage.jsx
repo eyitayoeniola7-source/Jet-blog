@@ -31,7 +31,7 @@ export const TagsPage = () => {
       </main>
 
       <section>
-       <Listing title="Category Listing" />
+       <Listing title="Tag Listing" />
       </section>
       
       

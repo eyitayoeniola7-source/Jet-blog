@@ -5,10 +5,10 @@ import Footer from '../components/Footer';
 
 export const CategoriesPage = () => {
   return (
-    <div className="max-w-7xl mx-auto  bg-purple-50 flex flex-col">
+    <div className="max-w-7xl mx-auto bg-purple-50 flex flex-col">
       
       
-      <main className="border-t border-gray-400 px-4 py-20 border-b border-gray-400 flex-1">
+      <main className="border-t border-gray-400 px-4 py-20  border-b border-gray-400 flex-1">
      
 
          <div className="grid md:grid-cols-2 gap-12 items-center">

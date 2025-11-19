@@ -31,7 +31,7 @@ export const ArticlesPage = () => {
       </main>
       
       <section>
-       <Listing title="Category Listing" />
+       <Listing title="Tag Listing" />
       </section>
       
     </div>
